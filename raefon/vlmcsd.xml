@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>vlmcsd</Name>
+  <Description>vlmcsd</Description>
+  <Registry>https://registry.hub.docker.com/u/raefon/vlmcsd/</Registry>
+  <Repository>raefon/vlmcsd</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/vlmcsd</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://github.com/raefon/unraid-templates/raw/master/png/vlmcsd.png</Icon>
+  <Config Name="User ID" Target="LUID" Default="99" Mode="" Description="Set to Desired User ID"
+Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+</Container>
