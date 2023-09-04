@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Container version="2">
+  <Name>FogProject</Name>
+  <Repository>ghcr.io/raefon/fogproject-alpine-docker:latest</Repository>
+  <Registry>https://github.com/raefon/fogproject-alpine-docker</Registry>
+  <Network>br0</Network>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Overview>FOG Project can capture, deploy, and manage Windows, Mac OSX, and various Linux distributions.&#13;
+Computers can be securely managed with FOG Project remotely, from anywhere in the world&#13;
+&#13;
+FOG Project is completely free for commericial use.&#13;
+Support is completely free, and backed by our thriving forum community of over 30,000 users.</Overview>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/raefon/docker-templates/master/raefon/fogproject.xml</TemplateURL>
+  <Icon>https://github.com/raefon/docker-templates/raw/master/png/fogproject.png</Icon>
+  <Networking>
+    <Mode>br0</Mode>
+  </Networking>
+  <Config Name="Images" Target="/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/images/</Config>
+  <Config Name="Mysql" Target="/var/lib/mysql" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/redvex-beta-fogproject/mysql</Config>
+  <Repo>RedVex's Repository</Repo>
+  <CAComment>This template is set up to use a custom network. You may have to adjust the network or IP address etc to match your system.  This template is set up to run as Privileged.  This is a possible security risk and usually does not need to be enabled.  Note that some applications require privileged in order to operate correctly  </CAComment>
+  <templatePath>/tmp/GitHub/AppFeed/templates/RedVexsRepository/redvex2460/fogproject.xml</templatePath>
+  <CategoryList>Backup</CategoryList>
+  <CategoryList>Network-DNS</CategoryList>
+  <downloads>135198</downloads>
+  <stars>2</stars>
+  <trending>1.347</trending>
+  <trends>0.454</trends>
+  <trends>1.381</trends>
+  <trends>1.389</trends>
+  <trends>1.426</trends>
+  <trends>1.361</trends>
+  <trends>1.416</trends>
+  <trends>1.347</trends>
+  <trendsDate>1676336677</trendsDate>
+  <trendsDate>1678932257</trendsDate>
+  <trendsDate>1681531463</trendsDate>
+  <trendsDate>1684130666</trendsDate>
+  <trendsDate>1686729882</trendsDate>
+  <trendsDate>1689329089</trendsDate>
+  <trendsDate>1691928286</trendsDate>
+  <downloadtrend>124333</downloadtrend>
+  <downloadtrend>126074</downloadtrend>
+  <downloadtrend>127850</downloadtrend>
+  <downloadtrend>129699</downloadtrend>
+  <downloadtrend>131489</downloadtrend>
+  <downloadtrend>133377</downloadtrend>
+  <downloadtrend>135198</downloadtrend>
+  <LastUpdateScan>1691928286</LastUpdateScan>
+  <LastUpdate>1686850913</LastUpdate>
+  <FirstSeen>1632161024</FirstSeen>
+  <topTrending>0.893</topTrending>
+  <topPerforming>1.347</topPerforming>
+  <Category>Backup: Network:DNS</Category>
+  <CABlacklist></CABlacklist>
+  <Blacklist>false</Blacklist>
+  <MinVer>6.0</MinVer>
+  <MaxVer></MaxVer>
+  <UpdateMinVer></UpdateMinVer>
+  <Plugin></Plugin>
+  <PluginURL></PluginURL>
+  <Date></Date>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <DonateLink>https://paypal.me/RedVex2460Gaming</DonateLink>
+  <OriginalOverview></OriginalOverview>
+  <DateInstalled></DateInstalled>
+  <ModeratorComment></ModeratorComment>
+  <DeprecatedMaxVer></DeprecatedMaxVer>
+  <OriginalDescription></OriginalDescription>
+  <Deprecated>false</Deprecated>
+  <RecommendedRaw></RecommendedRaw>
+  <Language></Language>
+  <RequiresFile></RequiresFile>
+  <Requires></Requires>
+  <Description>FOG Project can capture, deploy, and manage Windows, Mac OSX, and various Linux distributions.&#13;
+Computers can be securely managed with FOG Project remotely, from anywhere in the world&#13;
+&#13;
+FOG Project is completely free for commericial use.&#13;
+Support is completely free, and backed by our thriving forum community of over 30,000 users.</Description>
+  <Tag></Tag>
+  <CaComment></CaComment>
+  <IncompatibleVersion></IncompatibleVersion>
+  <Private></Private>
+  <BranchName></BranchName>
+  <display></display>
+  <RepositoryTemplate></RepositoryTemplate>
+  <bio></bio>
+  <NoInstall></NoInstall>
+  <Twitter></Twitter>
+  <Discord></Discord>
+  <Reddit></Reddit>
+  <Facebook></Facebook>
+  <ReadMe></ReadMe>
+  <display_dockerName></display_dockerName>
+  <actionCentre></actionCentre>
+  <SupportLanguage></SupportLanguage>
+  <DockerHub></DockerHub>
+  <Official></Official>
+  <Removable></Removable>
+  <IconFA></IconFA>
+  <imageNoClick></imageNoClick>
+  <RecommendedDate></RecommendedDate>
+  <UpdateAvailable></UpdateAvailable>
+  <Installed></Installed>
+  <Uninstall></Uninstall>
+  <caTemplateExists></caTemplateExists>
+  <Support></Support>
+  <Beta></Beta>
+  <Project></Project>
+  <Trusted></Trusted>
+  <InstallPath></InstallPath>
+  <LanguagePack></LanguagePack>
+  <trendDelta>0.893</trendDelta>
+  <RepoTemplate></RepoTemplate>
+  <ExtraSearchTerms></ExtraSearchTerms>
+  <LanguageDefault></LanguageDefault>
+  <translatedCategories></translatedCategories>
+  <RepoShort></RepoShort>
+  <LanguageLocal></LanguageLocal>
+  <ExtraPriority></ExtraPriority>
+  <caTemplateURL></caTemplateURL>
+  <Changes></Changes>
+  <ChangeLogPresent></ChangeLogPresent>
+  <Photo></Photo>
+  <Screenshot></Screenshot>
+  <Video></Video>
+  <RecommendedReason></RecommendedReason>
+  <LanguageURL></LanguageURL>
+  <RecommendedWho></RecommendedWho>
+  <RepoName>RedVex's Repository</RepoName>
+  <SortName>FogProject</SortName>
+  <ca_fav></ca_fav>
+  <Pinned></Pinned>
+  <ID>1842</ID>
+  <Displayable>true</Displayable>
+  <Author>redvex2460</Author>
+  <DockerHubName>fogproject</DockerHubName>
+  <SortAuthor>redvex2460</SortAuthor>
+  <random>994427997</random>
+  <Path>/tmp/community.applications/tempFiles/templates-community-apps/RedVexsRepository/redvex2460-FogProject-latest.xml</Path>
+  <BrandNewApp>true</BrandNewApp>
+  <trendAverage>1.2534</trendAverage>
+  <Compatible>true</Compatible>
+  <Environment>
+    <Variable>
+      <Name>test</Name>
+      <Value>yes</Value>
+    </Variable>
+  </Environment>
+</Container>
