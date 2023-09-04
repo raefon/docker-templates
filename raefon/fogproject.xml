@@ -18,10 +18,10 @@ Support is completely free, and backed by our thriving forum community of over 3
     <Mode>br0</Mode>
   </Networking>
   <Config Name="Images" Target="/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/images/</Config>
-  <Config Name="Mysql" Target="/var/lib/mysql" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/redvex-beta-fogproject/mysql</Config>
+  <Config Name="Mysql" Target="/var/lib/mysql" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/fogproject/mysql</Config>
   <Repo>RedVex's Repository</Repo>
   <CAComment>This template is set up to use a custom network. You may have to adjust the network or IP address etc to match your system.  This template is set up to run as Privileged.  This is a possible security risk and usually does not need to be enabled.  Note that some applications require privileged in order to operate correctly  </CAComment>
-  <templatePath>/tmp/GitHub/AppFeed/templates/RedVexsRepository/redvex2460/fogproject.xml</templatePath>
+  <templatePath></templatePath>
   <CategoryList>Backup</CategoryList>
   <CategoryList>Network-DNS</CategoryList>
   <downloads>135198</downloads>
@@ -137,9 +137,9 @@ Support is completely free, and backed by our thriving forum community of over 3
   <Displayable>true</Displayable>
   <Author>redvex2460</Author>
   <DockerHubName>fogproject</DockerHubName>
-  <SortAuthor>redvex2460</SortAuthor>
+  <SortAuthor>raefon</SortAuthor>
   <random>994427997</random>
-  <Path>/tmp/community.applications/tempFiles/templates-community-apps/RedVexsRepository/redvex2460-FogProject-latest.xml</Path>
+  <Path></Path>
   <BrandNewApp>true</BrandNewApp>
   <trendAverage>1.2534</trendAverage>
   <Compatible>true</Compatible>
