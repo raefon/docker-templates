@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Container version="2">
   <Name>FogProject</Name>
-  <Repository>ghcr.io/raefon/fogproject-alpine-docker:master</Repository>
-  <Registry>https://github.com/raefon/fogproject-alpine-docker</Registry>
+  <Repository>ghcr.io/raefon/fogproject-docker:master</Repository>
+  <Registry>https://github.com/raefon/fogproject-docker</Registry>
   <Network>br0</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
